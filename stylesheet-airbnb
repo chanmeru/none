@@ -1,0 +1,1040 @@
+/* common */
+/* <<--small screen (~743px)-->> */
+body,ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div{
+    padding:0;
+    margin:0;
+    color:#484848;
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    
+}
+li , s {
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    
+}
+i{
+    text-decoration: none;
+}
+
+/* ******ヘッダー*******
+******************** */
+
+.wrapper{
+    width: 70%;
+    margin:0 auto;
+}
+.contains{
+    width: 70% ;
+    margin:0 auto;
+}
+.border-title{
+    border:1px solid #484848;
+    width: 7%;
+    text-align: center;
+    margin:0 auto;
+}
+.header{
+    width: 100%;
+    height: 84px;
+  
+}
+.top-wrapper-SM{
+    display: none;
+}
+.nav{
+     display: flex;
+    justify-content:space-between; 
+    line-height: 80px;
+
+}
+
+
+.header__list-item{
+    float: left;
+    padding-right: 30px;
+}
+
+.nav__left a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #484848;
+}
+.nav__left a:hover{
+    color: #484848;
+}
+.nav__left i{
+    font-size: 35px;
+    color: #008489;
+    padding-left: 30px;
+    line-height: 80px;
+}
+.marking{
+    color: #008489 !important;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #008489 !important;
+}
+.header__list-month{
+    font-size: 14px;
+    line-height: 62px;
+}
+.header__list-free{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 800;
+}
+.header__list-start{
+    color:white;
+    background-color: red;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+/* :::::::検索:::::::::: */
+.head__search{
+    background-image: url(../img/main-bgimg.jpg);
+    height: 590px;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 100%;
+    background-size: cover;
+}
+.search__item{
+    content: "";
+    float: right;
+    max-width: 460px;
+    margin:80px 90px 0 0 ;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 40px;
+    z-index: 1;
+}
+.search__item-title{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+}
+.search__item-comment{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    padding-top: 10px;
+} 
+
+.search__form-area{
+   width: 100%;
+   display: block;
+   padding:5px;  
+   margin-bottom: 5px; 
+   border:1px solid rgba(0, 0, 0, 0.2);
+
+   
+
+}
+.search__form-type{
+    width: 100%;
+}
+.search__form-room{
+    display: inline-block;
+    width: 50%;
+    margin-right: 5px;
+    padding: 5px;
+    border:1px solid rgba(0, 0, 0, 0.2);
+
+}
+.search__form-people{
+    display: inline-block;
+    width: 47%;
+    padding: 5px;
+    border:1px solid rgba(0, 0, 0, 0.2);
+
+
+}
+.search__items{
+    display: flex;
+    margin-top: 10px;
+    color: #333333;
+}
+.search__items-free{
+    font-size:40px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: -1px;
+    display: inline-block;
+   
+}
+.search__items-month{
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.search__items-start{
+    background-color: #FF5A5F;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-weight: 800;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.search__items-start:hover{
+    text-decoration: none;
+    color:white;
+}
+/*::::: .middle-wrapper:::::: */
+/* .middle__message */
+.title{
+    text-align: center;
+    margin: 80px 0 0 0;
+    padding-bottom: 60px;
+}
+.middle__message{
+    width: 100%;
+   margin-top: 50px;
+   display: flex;
+   justify-content: space-between;
+}
+.middle__message-item{
+    width: 46%;
+    display: inline-block;
+   
+}
+.middle__message-content{
+    font-size: 16px;
+    line-height: 28px;
+}
+/* middle-steps */
+.middle__step{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.step__content{
+    width: 30%;
+    display: inline-block;
+}
+.middle__step-title{
+    text-align: center;
+}
+.step__content >.far{
+    font-size: 30px;
+    text-align: center;
+}
+/* .middle__comment */
+.comment{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.comment__content{
+    width: 40%;
+    display: inline-block;
+}
+.comment__content-image{
+    width: 45%;
+    display: inline-block;
+}
+.comment__content-img{
+    height:450px !important;
+}
+/* .support__content */
+.support__image-item{
+    height: 553px;
+    width: 96%;
+    margin:0 auto;
+    margin-top: 40px;
+}
+/* .middle__support */
+.support{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.support__content{
+    width: 45%;
+    display: inline-block;
+}
+
+/* 最初のメッセージ */
+.middle__message{
+    padding-bottom: 100px;
+}
+/* 3ステップで */
+.middle__step{
+    padding-bottom: 100px;
+}
+.step__content .far{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+/* シンプルな決済 */
+.middle__cash{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.cash{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cash__content{
+    width: 30%;
+    display: inline-block;
+}
+/* ホスト収入で */
+.middle__comment{
+    padding-bottom: 100px;
+}
+.middle__comment-SM{
+    display: none;
+}
+.comment__content i{
+    color: rgb(245, 183, 14);
+    font-size: 30px;
+}
+.comment-content{
+    font-size: 32px;
+}
+.comment-ex{
+    font-size: 16px;
+}
+.comment-check{
+    width: 220px;
+    font-size:16px;
+    font-weight: 800;
+    border:3px solid #484848;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-align: center;     
+}
+/* 万が一の時も */
+.support__content .fas{
+    color: #008489;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.support__content li{
+    line-height: 45px;
+}
+.support__content-ex{
+    font-size: 16px;
+    line-height: 28px;
+}
+/* 夢を共有する仲間が世界中に */
+.middle__about{
+    padding-top: 90px;
+}
+.about__content-number{
+    font-size: 60px;
+    font-weight: 400;
+}
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.about__content{
+    width: 30%;
+    display: inline-block;
+}
+/* Airbnbについて */
+.middle__about{
+    padding-bottom: 80px;
+}
+.checking{
+    color: #008489;
+    font-size: 16px;
+}
+.checking:hover{
+    color: #008489;
+}
+.about__details{
+    width: 45%;
+    display: inline-block;
+}
+
+/* よくある質問 */
+.middle__question{
+    width: 100%;
+    padding-top: 90px;
+}
+.page__b-title{
+    text-align:center;
+    margin: 0 auto ;
+    padding-top: 30px;
+    font-size: 60px;
+    padding-bottom: 60px;
+    font-weight: 900;
+   
+}
+
+.question{
+    width: 100%;
+    display: flex;
+}
+.question__left{
+    width: 50%;
+    display: inline-block;
+    
+}
+.question__right{
+    width: 50%;
+   display: inline-block;
+}
+.question__content-item {
+  margin:10px;
+  border-bottom:1px solid #EBEBEB;
+  position:relative;
+  cursor:pointer;
+  text-align: left;
+}
+
+.question{
+  font-size: 18px;
+  color:#008489;
+  padding-bottom: 15px;
+  padding-top:15px;
+}
+
+.faq-list-item span {
+  position:absolute;
+  top:0;
+  right:5px;
+  color:#ccc;
+  font-size:13px;
+}
+
+/* ホスティングの詳細はこちら */
+.middle__details{
+    padding-bottom: 80px;
+    padding-top: 100px;
+}
+.page__m-title{
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.details__content img{
+    width: 90%;
+    height:170px;
+    margin-bottom:10px;
+}
+.details-title{
+    font-size: 16px;
+    font-weight: 800;
+
+}
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.details-wrapper{
+    width: 30%;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 0;
+
+}
+.details-starting{
+    font-size: 14px;
+    font-weight: 300;
+    color: #008489;
+}
+.details-starting:hover{
+    text-decoration: none;
+    color:#008489;
+}
+/* **********フッター*********** */
+/* *************************** */
+.contain{
+  width: 84%;
+  margin:0 auto;  
+}
+.foot-wrapper{
+    padding-bottom: 50px;
+}
+.foot__starting{
+    background-image: url(../img/flower.jpg);
+    background-size: cover;
+    height:430px;
+    margin: 20px auto;
+    margin-bottom: 60px ;
+}
+.foot__starting-title{
+    color: white;
+    font-size: 60px;
+    padding:7% 0 4% 10%;
+    font-weight: 800;
+}
+.foot__starting-button{
+    background-color:white;
+    padding:14px 20px;
+    border-radius: 5px;
+    color:#484848;
+    width:30% ;
+    height:40px;
+    margin:7% 0 0 10% ;
+    font-weight: 600;
+
+}
+.foot__starting-button:hover{
+    text-decoration: none;
+    color: #484848;
+}
+.menuList-info,
+.footer__middle-item{
+    font-size: 13px;
+    color: #767676;
+    font-weight: 600;
+}
+.foot__menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.menuList{
+    width: 25%;
+    display: inline-block;
+}
+
+.menuList-new{
+    background-color:#006A70;
+    color: white;
+    border-radius: 2px;
+    margin-left: 5px;
+    font-size: 12px;
+    padding:0 2px;
+}
+.menuList__content-list a:hover ,
+.menuList__content-list i:hover{
+    color: #767676;
+    font-weight: 600;
+}
+.menuList-title{
+    font-size: 15px;
+    font-weight: 700;
+}
+.footer__contents{
+    display: flex;
+}
+.footer__left .fab{
+    font-size: 25px;
+    margin-right:15px;
+    margin-top: 20px;
+    opacity: 0.6;
+}
+.footer__right{
+    margin-left: auto;
+}
+.footer__right .fab{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 10px;
+    color: #000000;
+    opacity: 0.6;
+   
+}
+.footer__middle{
+    color:#767676;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+.footer__img{
+   display: inline;
+}
+
+.footer__middle a:hover{
+    color: #767676;
+    
+}
+.nonBorder:hover{
+    text-decoration: none;
+}
+.footer-rule{
+    color:#767676;
+    font-weight: 600;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+
+
+
+/* ***********メディアスクリーン***** */
+/* ********************************* */
+@media(max-width:1127px){
+    .page__b-title{
+        font-size: 40px;
+    }
+    .wrapper{
+        width: 80%;
+        margin:0 auto;
+    }
+    .image-SM{
+        height: 500px;
+        width: 100%;
+    }
+    /* .top-wrapper */
+    .top-wrapper{
+        display: none;
+    }
+    .top-wrapper-SM{
+        display: block;
+    }
+    .header-title{
+        width: 76%;
+        margin:0 auto;
+        font-size: 40px;
+        left: 10%;
+        top: 60%;
+        
+    }
+    .head__wrapper{
+        height: 260px;
+    }
+    /* .top-wrapper */
+    .head__wrapper{
+        background-image: url(../img/main-bgimg.jpg);
+        height: 250px;
+        background-repeat: no-repeat;
+        position: relative;
+        max-width: 100%;
+        background-size: cover;
+    }
+    .header__list-item{
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        top: 15%;
+        left: 3%;
+    }
+    .header-title{
+        color:white;
+        position: absolute;
+        top: 70%;
+        left: 10%;
+        font-size: 44px;
+        font-weight: 900;
+        width: 90%;
+        margin:0 auto;
+        font-size: 34px;
+        letter-spacing: 2px;
+    }
+    
+    .search__item-comment{
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+   
+    .search__items-free{
+        font-size: 40px;
+    }
+    .search__form-type{
+        margin-bottom: 20px;
+    }
+    /* よくある質問 */
+    .question{
+        font-size: 14px;
+    }
+    .question__left{
+        display: block;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .question__right{
+        margin-top: 0;
+        display: block;
+        width: 100%;
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+    .about__content-number{
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .about__content-ex{
+        font-size: 14px;
+    }
+    /* 3ステップで安心 */
+    .middle__step{
+        display: block;
+        width: 100%;
+    }
+    .step__content{
+        width: 100%;
+    }
+    /* 万が一の時も安心です */
+ 
+    .support{
+        width: 100%;
+        display: block;
+    }
+    .support__content{
+        margin-bottom: 30px;
+        width: 100%;
+        display: block;
+    }
+    
+    /* シンプルな決済 */
+    .cash__content{
+        padding-bottom: 30px;
+    }
+    
+    .cash{
+        display: block;
+        width: 100%;
+    }
+    .cash__content{
+        width: 100%;
+        display: block;
+    }
+    /* Airbnbについて */
+    .about{
+        display: block;
+        width: 100%;
+    }
+    .about__details{
+        display: block;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    /* ホスト収入で */
+    .commenters{
+        margin-bottom: 90px;
+    }
+    .comment__content-img{
+        height: 300px !important;
+    }
+    .comment-content{
+        font-size: 18px;
+    }
+    .comment-ex{
+        font-size: 14px;
+    }
+    /* よくある質問 */
+    .question,
+    .question__left,
+    .question__right{
+        width: 100%;
+        display: block;
+    }
+    /* ホスティングの詳細はこちら */
+    .middle__details{
+        padding-top: 0;
+    }
+  
+    
+    .details-wrapper{
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+    }
+    
+    .details-content-img-SM{
+       width: 100% !important;
+       height: 100px !important;
+    }
+    .details-starting{
+        display: none;
+    }
+    .rep{
+        padding-left: 10px;
+    }
+
+    
+
+    /* .footer */
+    .contains{
+        width: 94%;
+        margin: 0 auto;
+    }
+    .contain{
+        width: 100%;
+    }
+    .foot__starting-title{
+        letter-spacing: -2px;
+        font-size: 40px;
+        width: 40%;
+        padding-left: 140px;
+    }
+    .foot__starting-button{
+        margin-left: 140px;
+    }
+    }
+
+
+@media(max-width:743px){
+/* 基本事項 */
+body{
+width: 100%;
+}
+.border-title{
+    width: 12%;
+   margin:0 auto 0 0;
+}
+.page__b-title{
+    font-size: 40px;
+    text-align: left;
+    width: 100%;
+   
+}
+.page__m-title{
+   font-size: 24px; 
+
+}
+.wrapper{
+    width: 96%;
+}
+.contain{
+    width: 96%;
+}
+.image-SM{
+    height: 530px;
+    width: 100%;
+    margin:0 auto;
+}
+/* .top-wrapper-SM */
+.header-title{
+    width: 90%;
+    margin:0 auto;
+    font-size: 34px;
+    left: 3%;
+    top: 59%;
+}
+.search__item-SM{
+    width: 98%;
+    margin: 0 auto;
+}
+.search__form-area{
+    width:100%;
+    display: block;
+    padding: 6px;
+    border:1px solid rgba(0, 0, 0, 0.2);
+    
+
+}
+.search__form-people{
+    width: 100%;
+    display:block;
+    border:1px solid rgba(0, 0, 0, 0.2);
+
+   
+}
+.search__form-room{
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+    border:1px solid rgba(0, 0, 0, 0.2);
+}
+.search__items-free{
+    font-size: 32px;
+}
+/* .middle__wrapper */
+
+.middle__message{
+    width: 100%;
+    display: block;
+}
+.middle__message-item{
+    font-size: 14px;
+    padding-bottom: 20px;
+     width: 100%;
+}
+.middle__message-content{
+    letter-spacing: -1px;
+}
+
+.question__content-item{
+    padding-bottom: 0;
+}
+/* .middle__step ３ステップ */
+.step__content{
+    padding-bottom: 30px;
+}
+
+/* .middle__comment ホスト保証があったから */
+.middle__comment{
+    display: none;
+}
+.middle__comment-SM{
+    display: block;
+    width: 100%;
+    
+}
+.comment__content{
+    width: 100%;
+    display: block;
+}
+/* 万一の時でも安心です */
+.middle__support{
+    padding-top: 60px;
+}
+
+.support__image{
+    margin-bottom: 50px;
+}
+
+/* ホスト収入で */
+.comment{
+    display: block;
+    width: 100%;
+}
+.comment__content{
+    display: block;
+    width: 100%;
+}
+.comment__content .fas{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.comment-content{
+    font-size: 18px;
+}
+.comment-ex{
+    font-size: 14px;
+}
+.comment__content-image{
+    width: 100%;
+}
+/* 夢を共有する仲間が */
+.about__content-number{
+    font-size: 40px;
+}
+.about__content-ex{
+    font-size: 14px;
+    
+}
+.comment__content-img{
+    width: 100% !important;
+    height: 400px;
+}
+.middle__about-title{
+    width: 100%;
+}
+.about{
+    width: 100%;
+    display: block;
+}
+.about__content{
+    display: block;
+    width: 100%;
+}
+
+/* よくある質問 */
+.question,
+.question__left,
+.question__right{
+    width: 100%;
+    display: block;
+}
+
+
+/* airbnbについて */
+.about__content{
+    padding-bottom: 30px;
+}
+/* ホスティングの詳細はこちらから */
+.details{
+    display: block;
+    padding-top: 10px;
+}
+.details-wrapper{
+    display: block !important;
+    width: 100%;
+}
+.details__content{
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.details-content-img-SM{
+    width: 20% !important;
+    height:80px !important;
+    display: inline-block;
+    margin-bottom: 0 !important;
+}
+.rep{
+    display: inline-block;
+    padding-top: 10px;
+}
+/* よくある質問 */
+.question{
+    font-size: 16px;
+}
+/* .footer */
+.contain{
+    width: 100%;
+    margin:0 auto;
+}
+hr{
+    display: none;
+}
+.foot__starting{
+    height: 370px;
+}
+.foot__starting-title{
+    font-size: 38px;
+    padding:14% 0 7% 7%;
+
+}
+.foot__starting-button{
+    padding:2% 4% ;
+}
+.menuList{
+    display: none;
+}
+.footer__right{
+    display: none;
+}
+.footer__middle{
+    font-size: 12px;
+  
+}
+.footer-rule{
+    display: none;
+}
+.foot__starting-title{
+    letter-spacing: -2px;
+    font-size: 38px;
+    width: 50%;
+    padding-left: 50px;
+}
+.foot__starting-button{
+    margin-left: 50px;
+}
+ 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
